@@ -89,7 +89,7 @@ isvc = V1beta1InferenceService(api_version=api_version,
                                spec=V1beta1InferenceServiceSpec(
                                predictor=V1beta1PredictorSpec(
                                sklearn=(V1beta1SKLearnSpec(
-                                   storage_uri="gs://kfserving-samples/models/sklearn/iris"))))
+                                   storage_uri="gs://kfserving-examples/models/sklearn/1.0/model"))))
 )
 ```
 
